@@ -1,7 +1,5 @@
 <?php
 
-require_once 'IRepository.php';
-
 class SQLRepo implements IRepository
 {
     private $conn;

@@ -4,9 +4,7 @@
     ini_set('display_startup_errors', 1);
     error_reporting(-1);
 
-    include_once 'DatabaseInterface.php';
-    include_once 'ColorController.php';
-    include_once 'TestController.php';
+    include_once 'vendor/autoload.php';
 
     setupEnv();
 
